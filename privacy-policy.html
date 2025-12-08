@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - I Don't Plan Planner</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333333; background-color: #F5F5F0; }
-        h1 { color: #1A202C; border-bottom: 2px solid #5B8F80; padding-bottom: 10px; }
-        h2 { color: #5B8F80; margin-top: 30px; }
-        p, ul { margin-bottom: 20px; }
-        li { margin-bottom: 8px; }
-        .disclaimer { margin-top: 40px; padding: 15px; border: 1px solid #B85C5C; background-color: #FFF0F0; font-size: 0.9em; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - I Don't Plan Planner</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333333; background-color: #F5F5F0; }
+        h1 { color: #1A202C; border-bottom: 2px solid #5B8F80; padding-bottom: 10px; }
+        h2 { color: #5B8F80; margin-top: 30px; }
+        p, ul { margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+        .disclaimer { margin-top: 40px; padding: 15px; border: 1px solid #B85C5C; background-color: #FFF0F0; font-size: 0.9em; }
+    </style>
 </head>
 <body>
 
-    <h1>Privacy Policy for I Don't Plan Planner</h1>
-    <p><strong>Last Updated:</strong> December 6, 2025</p>
+    <h1>Privacy Policy for I Don't Plan Planner</h1>
+    <p><strong>Last Updated:</strong> December 7, 2025</p>
 
-    <p>This Privacy Policy describes how [Your Company Name/Your Name] ("we," "us," or "our") handles information for the "I Don't Plan Planner" mobile application. Our core philosophy is **Quiet Focus**, meaning we prioritize your privacy and minimize data collection.</p>
+    <p>This Privacy Policy describes how [Your Company Name/Your Name] ("we," "us," or "our") handles information for the "I Don't Plan Planner" mobile application. Our core philosophy is **Quiet Focus**, meaning we prioritize your privacy and minimize data collection.</p>
 
-    <h2>1. Data Collection and Processing Philosophy</h2>
-    <p>Our app is designed around **on-device processing**. Your thoughts, tasks, and personal data (titles, priorities, sketches, photos) are stored locally on your device using **Apple's SwiftData/CoreData**. We do not collect, transmit, or store this sensitive task data on our servers.</p>
+    <h2>1. Data Processing Philosophy: Local and Private</h2>
+    <p>Our app is designed around **on-device processing**. Your thoughts, tasks, and personal data are stored locally on your device (using **SwiftData/CoreData**). **We do not use any external cloud services, including iCloud, to store or sync your sensitive task content.** We do not collect, transmit, or store this sensitive task content on our servers.</p>
 
-    <h2>2. Information We Collect (Minimalist Approach)</h2>
+    <h2>2. Information Stored Only On Your Device</h2>
+    <p>All user-generated content and derived data are processed and stored solely on your device and are not accessible by us.</p>
+    <ul>
+        <li><strong>Task Content (Brain Dump):</strong> All text input, notes, priority levels, due dates, sketches, and attached photos.</li>
+        <li><strong>Speech Data:</strong> Audio captured via the microphone is immediately processed into text using **on-device speech recognition** for transcription into your notes. The audio itself is **not recorded or stored** by the app or transmitted to our servers.</li>
+        <li><strong>OCR Data:</strong> Text detected from images using **on-device Camera/OCR technology** is solely used for transcription into your notes. The detected text is stored locally as task content, and the photo itself is stored locally.</li>
+        <li><strong>Contextual Tags:</strong> Location tags (see Section 4) and AI-derived context are used solely for task sorting and filtering **within the app.**</li>
+    </ul>
 
-    <h3>Information Stored Only On Your Device:</h3>
-    <ul>
-        <li><strong>Task Content:</strong> All text input (Brain Dump), task titles, notes, priority levels, due dates, sketches (`sketchData`), and attached photos (`photoData`).</li>
-        <li><strong>Contextual Tags:</strong> AI-derived context and location tags (e.g., "Walmart," "UPS Store") used solely for task sorting and filtering within the app.</li>
-    </ul>
+    <h2>3. Data We May Collect (Anonymized Usage)</h2>
+    <p>We may use third-party tools (such as Apple's standard reporting tools and AdMob, see Section 5) to collect limited, anonymized, and aggregated data necessary for app maintenance and improvement:</p>
+    <ul>
+        <li><strong>Crash Logs:</strong> Information about app crashes to fix bugs.</li>
+        <li><strong>Basic Usage Statistics:</strong> Aggregate, non-personal data on which core features are used (e.g., how often the Focus View is opened).</li>
+    </ul>
 
-    <h3>Information We May Collect (Anonymized Usage):</h3>
-    <p>We may use third-party tools (such as Apple's standard reporting tools) to collect limited, anonymized, and aggregated data necessary for app maintenance and improvement:</p>
-    <ul>
-        <li><strong>Crash Logs:</strong> Information about app crashes to fix bugs.</li>
-        <li><strong>Basic Usage Statistics:</strong> Aggregate, non-personal data on which core features are used (e.g., how often the Focus View is opened vs. the History View).</li>
-    </ul>
+    <h2>4. Device Permissions and Sensor Use</h2>
+    <p>The app requests access to the following device sensors, which are used exclusively for on-device functionality:</p>
+    <ul>
+        <li><strong>Microphone:</strong> Used to capture voice input for real-time, on-device speech-to-text transcription for the Brain Dump feature. Audio is not stored.</li>
+        <li><strong>Camera:</strong> Used to capture images for the on-device **OCR (Optical Character Recognition) technology** to detect and input text into notes. The photo is stored locally as task content.</li>
+        <li><strong>Location Services:</strong> Used to enable **Contextual Task Grouping** and smart sorting. Your location is processed **on-device** to determine proximity to location-based tasks and is NOT transmitted to our servers.</li>
+    </ul>
 
-    <h2>3. Location Services (Contextual Task Grouping)</h2>
-    <p>The "I Don't Plan Planner" requests access to your device's location to enable **Contextual Task Grouping** and smart sorting. Location services are handled as follows:</p>
-    <ul>
-        <li><strong>"While Using the App" Access:</strong> Your location is used only while the app is active to determine proximity to location-based tasks and prioritize them in the Focus View. This data is processed on-device and is NOT transmitted to our servers.</li>
-        <li><strong>"Always" Access (Optional):</strong> If you grant "Always" access (typically for advanced, proactive reminder features), your location is used in the background to trigger local notifications when you arrive at a task-related location. This data is still processed on-device.</li>
-    </ul>
+    <h2>5. Third-Party Services (Advertising)</h2>
+    <p>The "I Don't Plan Planner" uses the **Google AdMob** service to deliver advertisements (Rewarded Ads). AdMob may collect and use information about your usage of this and other applications to provide personalized advertising. Please refer to the <a href="https://policies.google.com/technologies/partner-sites">Google Privacy Policy</a> for more information on how Google handles data.</p>
 
-    <h2>4. Data Sharing and Disclosure</h2>
-    <p>We do not sell or share any personal information collected from your use of the app with third parties for marketing or any other commercial purpose. Your task data is your own.</p>
+    <h2>6. Data Sharing and Disclosure</h2>
+    <p>We do not sell or share any user-generated task content or personal information collected from your use of the app with third parties for marketing or any other commercial purpose. Your task data is your own.</p>
 
-    <h2>5. Security</h2>
-    <p>Because your sensitive data (tasks, sketches, photos) is stored solely on your device, it benefits from the security features built into your iOS device (e.g., encryption, device authentication).</p>
+    <h2>7. Security and Data Retention</h2>
+    <p>Because your sensitive data (tasks, sketches, photos) is stored solely on your device, it benefits from the security features built into your iOS device (e.g., encryption, device authentication). If you delete the app, all locally stored data will be removed from your device.</p>
 
-    <h2>6. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App and updating the "Last Updated" date.</p>
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App and updating the "Last Updated" date.</p>
 
-    <h2>7. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <ul>
-        <li>Email: amador.delima@icloud.com</li>
-    </ul>
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+    <ul>
+        <li>Email: amador.delima@icloud.com</li>
+    </ul>
 
 
 </body>
